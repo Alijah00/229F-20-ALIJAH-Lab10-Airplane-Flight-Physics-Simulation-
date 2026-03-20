@@ -658,6 +658,7 @@ GameObject:
   - component: {fileID: 1992572236}
   - component: {fileID: 1992572235}
   - component: {fileID: 1992572234}
+  - component: {fileID: 1992572237}
   m_Layer: 0
   m_Name: airplaneroot
   m_TagString: Untagged
@@ -733,6 +734,28 @@ Transform:
   - {fileID: 987666937}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1992572237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1992572233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b267ed18fb8b7549a589cac5305a960, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::airplane
+  thrust: 40
+  liftCoefficient: 0.02
+  dragCoefficient: 0.02
+  sideDrag: 2
+  turnStrength: 0.5
+  stallAngle: 35
+  stallLiftMultiplier: 0.3
+  pitchPower: 15
+  rollPower: 20
+  yawPower: 15
 --- !u!1 &2000054539
 GameObject:
   m_ObjectHideFlags: 0
